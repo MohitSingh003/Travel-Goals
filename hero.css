@@ -7,9 +7,12 @@
 }
 
 #hero-content{
+    color: white;
     height: 200px;
     width: 430px;
-    background-color:aliceblue;
+    background: transparent;
+    border: 2px solid rgba(207, 207, 207, 0.7);
+    backdrop-filter: blur(5px);
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -23,9 +26,10 @@
 #hero-content p{
     margin: 0;
     opacity: 1;
+    font-size: 20px;
 }
 
-#hero-content a{
+#hero-content a{    
     opacity: 1;
     text-align: center;
     background-color: gray;
