@@ -1,0 +1,36 @@
+body{
+    font-family: "Quicksand", sans-serif;
+    margin : 0;
+}
+
+#logo{
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 48px;
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+nav{
+    margin-right: 20px;
+    height: min-content;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    font-size: 20px;    
+}
+
+header{
+    margin-top: -10px;
+    display: flex;          
+    align-items: center;
+    justify-content:space-between;
+}
+
+li {
+    padding: 10px;
+}
+
