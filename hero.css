@@ -1,0 +1,43 @@
+#hero{
+    height: 600px;
+    background-image: url("assets/hero.jpg");
+    background-size: cover;
+    display: flex;
+}
+
+#hero-content{
+    height: 200px;
+    width: 500px;
+    background-color:aliceblue;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    opacity: 0.5;
+}
+
+#hero-content p{
+    margin: 0;
+    opacity: 1;
+}
+
+#hero-content a{
+    opacity: 1;
+    text-align: center;
+    background-color: gray;
+    align-items: center;
+    padding: 10px 15px 10px 15px;
+}
+
+#hero-content a:hover{
+    background-color: darkgrey;
+}
+
+#hero-content h1{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 40px;
+    margin: 0;
+}
