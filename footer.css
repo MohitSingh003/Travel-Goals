@@ -1,0 +1,26 @@
+#footer{
+    background-color: rgb(237, 237, 237);
+    padding: 10px;
+    text-align: center;
+}
+
+#footer-items{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.logo img{
+    height: 30px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.logo a{
+    padding: 5px;
+}
