@@ -1,0 +1,30 @@
+h2{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+#destinations{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: auto;
+    margin-bottom: 40px;
+    justify-content: space-around;
+}
+
+.destination img{
+    box-sizing: content-box;
+    width: 100%;
+    height: 200px;  
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px gray;
+    object-fit: cover;
+}
+
+.destination p{
+    text-align: center;
+}
