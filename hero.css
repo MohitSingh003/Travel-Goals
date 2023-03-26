@@ -11,8 +11,8 @@
     height: 200px;
     width: 430px;
     background: transparent;
-    border: 2px solid rgba(207, 207, 207, 0.7);
-    backdrop-filter: blur(5px);
+    /* border: 2px solid rgba(207, 207, 207, 0.7); */
+    backdrop-filter: blur(3px);
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -49,6 +49,9 @@
 }
 
 #landing-text{
+    padding: 0px 10px;
+    background: transparent;
+    backdrop-filter: blur(3px);
     width: 500px;
     color: aliceblue;
     font-size: 15px;
