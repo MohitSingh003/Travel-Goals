@@ -1,13 +1,16 @@
 #destinations{
     list-style: none;
     padding: 0;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .destination{
     display: flex;
-    justify-content: space-evenly;
-    margin: 20px 0;
-
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 80%;
+    padding: 10px;
 }
 .destination img{
     height: 200px;
@@ -20,9 +23,11 @@
 
 .destination-rev{
     display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 80%;
     flex-direction: row-reverse;
-    justify-content: space-evenly;
-    margin: 20px 0;
+    padding: 10px;
 }
 
 .destination-rev img{
@@ -34,4 +39,18 @@ h2{
     text-align: center;
     font-size: 52px;
     font-weight: 400;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+#highlight{
+    background-image: url(assets/pine.jpg);
+    padding-top: 30px;
+    background-size: cover;
+}
+
+#destinations li{
+    background: transparent;
+    backdrop-filter: blur(2px);
+    color: white;
 }
